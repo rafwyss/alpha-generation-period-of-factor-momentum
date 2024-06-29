@@ -6,6 +6,14 @@ This repository contains the Python code for the thesis "The alpha-generation pe
 
 The repository is structured into a data preparation section, a section on the calculation of alpha-generation period results and lastly a section on the statistical analysis as well as results visualization.
 
+
+## Guidance
+### Input parameters
+Each script works with different input parameters. These are specified in lists at the top of the script, before the analyis.
+To compute AGP results using only a set of these input parameters, COMMENT OUT the other parameters (don't delete them).
+
+By default, results will be calculated for all percentiles and LBP-lengths, but only for capped value weighted underlying factor returns. To generate AGP results with other return weighting methods as well, uncomment them in each script.
+
 ## Content
 ### 1. Factor return data preparation
 
@@ -54,13 +62,3 @@ Box plots help understand the distribution of the AGP results.
 "08_1_2_agp-box-plot-lbp-length" generates box plots segmented by different LBP-lengths.
 "08_1_3_agp_boxplots_ret_w" generates box plots segmented by different underlying factor return weighting method used.
 "08_2_agp-box-plot-over-eras" generates box plots segmented by different eras, during which the AGP results were computed.
-
-
-## Guidance
-### Input parameters
-Each script works with different input parameters. These are specified in lists at the top of the script, before the analyis.
-To compute AGP results using only a set of these input parameters, COMMENT OUT the other parameters (don't delete them).
-
-By default, results will be calculated for all percentiles and LBP-lengths, but only for capped value weighted underlying factor returns. To generate AGP results with other return weighting methods as well, uncomment them in each script.
-
-
