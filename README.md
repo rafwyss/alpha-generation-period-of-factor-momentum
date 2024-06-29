@@ -1,6 +1,6 @@
 # The alpha-generation period of factor momentum strategies
 
-This code was used in the Bachelor's Thesis.
+This code was used in the Bachelor's Thesis "The alpha-generation period of factor momentum strategies".
 
 This repository contains the Python code for the thesis "The alpha-generation period of factor momentum strategies". 
 
